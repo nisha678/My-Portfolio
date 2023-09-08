@@ -29,11 +29,17 @@ export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
       <div>
-        <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
-        <p className="text-lg">
-          Please fill out the form to know more about us!
-        </p>
+        <h1>
+          <p className="sub--title">Get In Touch</p>
+        </h1>
+
+        <h2>
+          <p className="text-lg">
+            Whenever you are starting a project, have a business inquiries or
+            just want to say hi, my inbox is always open so feel free to reach
+            out and I will get back to you as soon as posible.
+          </p>
+        </h2>
       </div>
       <form
         className="contact--form--container"
@@ -79,8 +85,9 @@ export default function ContactMe() {
             type="submit"
             value="send"
             className="btn btn-primary contact--form--btn"
+            href="mailto:patar.nisha@gmail.com"
           >
-            Submit
+            Reach Out
           </button>
         </div>
       </form>

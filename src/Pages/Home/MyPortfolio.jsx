@@ -1,12 +1,13 @@
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
+  
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">Projects</h2>
+          <p className="sub--title"></p>
+          <h2 className="section--heading">Recent Projects</h2>
         </div>
         <div className="">
           <button className="btn btn-github">
@@ -26,7 +27,6 @@ export default function MyPortfolio() {
             </svg>
             <a
               href="https://github.com/nisha678"
-              className="navbar--content"
               target="_blank"
               rel="noreferrer"
             >

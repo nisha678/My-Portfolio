@@ -36,9 +36,10 @@ p {
   --white: #ffffff;
 }
 .btn {
+  align-items: center;
   font-family: "Roboto";
   display: inline-block;
-  padding: 14px 32px;
+  padding: 10px 32px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -66,10 +67,31 @@ p {
   color: var(--white);
   background-color: var(--primary);
 }
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.btn-cv {
+  color: var(--white);
+  background-color: var(--primary);
+  border: var(--primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
+  gap: 16px;
+  box-shadow: 0 0 5px var(--primary), 0 0 15px var(--primary);
+}
+.btn-cv:hover {
+  color: white;
+  background-color: rgb(102, 94, 194);
+}
 .btn-primary {
   color: var(--white);
   background-color: var(--primary);
-  border: 1px solid var(--primary);
 }
 .btn-primary:hover {
   color: var(--primary);
@@ -90,6 +112,7 @@ p {
   color: var(--github);
   background-color: var(--white);
 }
+
 /* Global CSS Ends */
 /* Main Headings */
 
@@ -231,6 +254,10 @@ h2 {
 .navbar--active-content {
   color: #ff00d2;
 }
+.navbar--active-content:hover {
+  color: #ff00d2;
+}
+
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
@@ -273,6 +300,38 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+}
+.social--icon > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  text-decoration: none;
+  padding-right: 40px;
+}
+.social--icon > ul > li {
+  border-radius: 4px;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 0.25s;
+}
+.social--icon > ul > li:hover {
+  outline-offset: 4px;
+  animation: shake 0.25s;
+}
+@keyframes shake {
+  10% {
+    transform: rotate(20deg);
+  }
+  20% {
+    transform: rotate(-20deg);
+  }
+  30% {
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: rotate(-20deg);
+  }
 }
 .hero--section--img {
   display: flex;
@@ -601,7 +660,10 @@ input[type="checkbox"] {
   align-self: stretch;
 }
 .footer--content {
-  color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5b5b5b;
   font-size: 18.667px;
   font-weight: 400;
   line-height: 28px;
@@ -736,7 +798,7 @@ input[type="checkbox"] {
   display: block;
   height: 0.188rem;
   width: 100%;
-  background-color: #000000;
+  background-color: #121212;
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
@@ -793,3 +855,5 @@ input[type="checkbox"] {
 }
 
 /* Responsive Screens Ends*/
+
+/*typed js*/

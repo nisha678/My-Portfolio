@@ -27,7 +27,7 @@ function Navbar() {
   }, []);
 
   useEffect(() => {
-    if (window.innerWidth <= 1200) {
+    if (window.innerWidth <= 1000) {
       closeMenu;
     }
   }, []);
@@ -102,7 +102,7 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Portfolio
+              MyPortfolio
             </Link>
           </li>
         </ul>
