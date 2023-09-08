@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <h2 class="logo-name">/Nisha Patar/</h2>
+          <h2 className="logo-name">/Nisha Patar/</h2>
         </div>
         <div className="footer--items">
           <ul>
