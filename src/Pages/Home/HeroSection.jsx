@@ -4,12 +4,7 @@ import { Cursor } from "react-simple-typewriter";
 export default function HeroSection() {
   const [currentProfessionIndex, setCurrentProfessionIndex] = useState(0);
 
-  const professions = [
-    "Full Stack Developer",
-    "Blogger",
-    "UI/UX Designer",
-    "Artist 👩‍🎨",
-  ];
+  const professions = ["Web Developer 💻 ", "Blogger 🖋", "Artist 🎨"];
 
   useEffect(() => {
     const interval = setInterval(() => {

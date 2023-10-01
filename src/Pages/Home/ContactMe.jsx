@@ -35,8 +35,7 @@ export default function ContactMe() {
 
         <h2>
           <p className="text-lg">
-            Whenever you are starting a project, have a business inquiries or
-            just want to say hi, my inbox is always open so feel free to reach
+            Just want to say hi? my inbox is always open so feel free to reach
             out and I will get back to you as soon as posible.
           </p>
         </h2>
